@@ -1,0 +1,1 @@
+This bug occurs when using the Expo `Camera` API with a custom `onBarCodeScanned` function. The barcode scanner sometimes fails to detect barcodes, especially when the barcode is not perfectly centered or the lighting conditions are poor.  The `onBarCodeScanned` function is not reliably triggered. The Expo documentation does not provide a clear explanation for this behavior.
